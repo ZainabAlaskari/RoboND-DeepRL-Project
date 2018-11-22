@@ -1,0 +1,9 @@
+sudo apt-get install libignition-math2-dev 
+cd /home/workspace/RoboND-DeepRL-Project/
+cd build
+make
+cd x86_64/bin
+./gazebo-arm.sh
+
+
+
